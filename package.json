@@ -1,0 +1,28 @@
+{
+  "name": "sajin.page-v2",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev --port=4000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "13.5.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "styled-components": "^6.0.9",
+    "styled-normalize": "^8.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.4",
+    "typescript": "^5",
+    "@svgr/webpack": "^8.1.0"
+  }
+}
